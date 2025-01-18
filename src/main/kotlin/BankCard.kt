@@ -1,4 +1,4 @@
-class BankCard  (private val cardNumber: String, private  var cardCode: String ) {
+class BankCard   (private val cardNumber: String, private  var cardCode: String ) {
     private val password = "password"
 
     fun getCardNumber(): String{
